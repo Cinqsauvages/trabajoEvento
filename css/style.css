@@ -1,0 +1,39 @@
+
+body{
+    background: linear-gradient(to top, cadetblue, white);
+}
+.productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.producto{
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: black 2px 2px;
+    padding: auto;
+    background-color: white;
+}
+
+.producto h3{
+    color:grey;
+    font-size: 16px;
+}
+.producto button{
+    font-weight: bold;
+}
+.fotos{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 25px;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 50px;
+    color:black;   
+
+}
